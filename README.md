@@ -40,7 +40,7 @@
 - The approach shown in Figure 1 proposes SMPS, or solar, as a power supply for both the tank side and the user side. 
 
 <p align="center">
-<img src="images/propose_concept.jpeg" height="60%" width="60%">
+<img src="images/proposed_concept.jpeg" height="60%" width="60%">
 </p>
 <p align="center">Figure 1 Proposed Concept</p>
 
@@ -49,7 +49,7 @@
 - Figure 2 shows the components needed for the proposed concept
 
 <p align="center">
-<img src="images/Components_used.jpg" height="60%" width="60%">
+<img src="images/components_used.jpg" height="60%" width="60%">
 </p>
 <p align="center">Figure 2 Components Used</p>
 
@@ -62,15 +62,89 @@ The overall process flow is shown in Figure 3. The water-resistant Ultrasonic se
 <p align="center">Figure 3 Process Flow</p>
 
 ### 7. Circuit Design:
+Figures 4 and 5 show the circuit diagram that was implemented on the tank and user sides, respectively.
+
+<p align="center">
+<img src="images/tank_side_circuit_design.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 4 Tank Side Circuit Design</p>
+
+<p align="center">
+<img src="images/user_side_circuit_diagram.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 5 User Side Circuit Design</p>
 
 ### 8. Real-time Database:
+The values obtained from the tank-side module will be sent to Google Firebase via NodeMCU. The image below shows the data obtained from the tank module in a real-time database.
+
+<p align="center">
+<img src="images/real_time_database.png" height="60%" width="60%">
+</p>
+<p align="center">Figure 6 Real-time Database</p>
 
 ### 9. Implementation:
 #### User Interface:
+Once the device is powered, the LCD screen boots. The user can press on the screen once to monitor the tank levels.
+
+<p align="center">
+<img src="images/boot_screen.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 7 Boot Screen</p>
+
+<p align="center">
+<img src="images/water_level_in_tank1.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 8 Water Level in Tank 1</p>
+
+<p align="center">
+<img src="images/water_level_in_tank2.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 9 Water Level in Tank 2</p>
+
+<p align="center">
+<img src="images/water_level_in_tank3.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 10 Water Level in Tank 3</p>
+
+When the tank level rises above 97%, the green LED will turn on, and when the tank level goes below 6%, the red LED will turn on.
+
+<p align="center">
+<img src="images/high_water_level.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 11 Tank Level Above 97%</p>
+
+<p align="center">
+<img src="images/low_water_level.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 12 Tank Level Below 6%</p>
+
 #### Tank Side:
+The circuit board will be enclosed in a case and placed near the tank, whereas the probe goes inside to measure the water level.
+
+<p align="center">
+<img src="images/tank_side_setup.png" height="60%" width="60%">
+</p>
+<p align="center">Figure 13 Tank Side Setup</p>
+
 #### Component Housing:
+Housing is designed both for the User Interface and the tank side setup to enclose all the components and protect them from weather.
+
+<p align="center">
+<img src="images/user_side_case_design.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 14 User Interface Case Design</p>
+
+<p align="center">
+<img src="images/tank_side_case_design.jpg" height="60%" width="60%">
+</p>
+<p align="center">Figure 15 Tank Circuit Case Design</p>
 
 ### 10. Conclusion and Future Works:
+-The presented framework is more appropriate to monitor water tank level continuously and on a real-time basis. 
++ Use solar energy for power supply to improve power backup.
++ Improve the user interface with additional features like water consumption, etc.
+- Integrate additional components to automatically turn on and off the pump.
+- Develop a mobile application for remote operations.
 
 ### 11. References:
 
