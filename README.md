@@ -40,7 +40,7 @@
 - The approach shown in Figure 1 proposes SMPS, or solar, as a power supply for both the tank side and the user side. 
 
 <p align="center">
-<img src="images/proposed_concept.jpeg" height="60%" width="60%">
+<img src="images/proposed_concept.jpeg" height="50%" width="50%">
 </p>
 <p align="center">Figure 1 Proposed Concept</p>
 
@@ -49,7 +49,7 @@
 - Figure 2 shows the components needed for the proposed concept
 
 <p align="center">
-<img src="images/components_used.jpg" height="60%" width="60%">
+<img src="images/components_used.jpg" height="80%" width="80%">
 </p>
 <p align="center">Figure 2 Components Used</p>
 
@@ -57,7 +57,7 @@
 The overall process flow is shown in Figure 3. The water-resistant Ultrasonic sensor estimates the water level, and the data is updated using the NodeMCU on top of the tank in Google Firebase whenever the value changes. The NodeMCU in the user interface reads the updated value and displays it on the LCD screen. LEDs are used to indicate the high and low water levels in the tanks.
 
 <p align="center">
-<img src="images/process_flow.jpeg" height="60%" width="60%">
+<img src="images/process_flow.jpeg" height="80%" width="80%">
 </p>
 <p align="center">Figure 3 Process Flow</p>
 
@@ -65,12 +65,12 @@ The overall process flow is shown in Figure 3. The water-resistant Ultrasonic se
 Figures 4 and 5 show the circuit diagram that was implemented on the tank and user sides, respectively.
 
 <p align="center">
-<img src="images/tank_side_circuit_design.jpg" height="60%" width="60%">
+<img src="images/tank_side_circuit_design.jpg" height="90%" width="90%">
 </p>
 <p align="center">Figure 4 Tank Side Circuit Design</p>
 
 <p align="center">
-<img src="images/user_side_circuit_diagram.jpg" height="60%" width="60%">
+<img src="images/user_side_circuit_diagram.jpg" height="90%" width="90%">
 </p>
 <p align="center">Figure 5 User Side Circuit Design</p>
 
@@ -78,7 +78,7 @@ Figures 4 and 5 show the circuit diagram that was implemented on the tank and us
 The values obtained from the tank-side module will be sent to Google Firebase via NodeMCU. The image below shows the data obtained from the tank module in a real-time database.
 
 <p align="center">
-<img src="images/real_time_database.png" height="60%" width="60%">
+<img src="images/real_time_database.png" height="90%" width="90%">
 </p>
 <p align="center">Figure 6 Real-time Database</p>
 
@@ -87,34 +87,34 @@ The values obtained from the tank-side module will be sent to Google Firebase vi
 Once the device is powered, the LCD screen boots. The user can press on the screen once to monitor the tank levels.
 
 <p align="center">
-<img src="images/boot_screen.jpg" height="60%" width="60%">
+<img src="images/boot_screen.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 7 Boot Screen</p>
 
 <p align="center">
-<img src="images/water_level_in_tank1.jpg" height="60%" width="60%">
+<img src="images/water_level_in_tank1.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 8 Water Level in Tank 1</p>
 
 <p align="center">
-<img src="images/water_level_in_tank2.jpg" height="60%" width="60%">
+<img src="images/water_level_in_tank2.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 9 Water Level in Tank 2</p>
 
 <p align="center">
-<img src="images/water_level_in_tank3.jpg" height="60%" width="60%">
+<img src="images/water_level_in_tank3.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 10 Water Level in Tank 3</p>
 
 When the tank level rises above 97%, the green LED will turn on, and when the tank level goes below 6%, the red LED will turn on.
 
 <p align="center">
-<img src="images/high_water_level.jpg" height="60%" width="60%">
+<img src="images/high_water_level.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 11 Tank Level Above 97%</p>
 
 <p align="center">
-<img src="images/low_water_level.jpg" height="60%" width="60%">
+<img src="images/low_water_level.jpg" height="70%" width="70%">
 </p>
 <p align="center">Figure 12 Tank Level Below 6%</p>
 
@@ -122,7 +122,7 @@ When the tank level rises above 97%, the green LED will turn on, and when the ta
 The circuit board will be enclosed in a case and placed near the tank, whereas the probe goes inside to measure the water level.
 
 <p align="center">
-<img src="images/tank_side_setup.png" height="60%" width="60%">
+<img src="images/tank_side_setup.png" height="70%" width="70%">
 </p>
 <p align="center">Figure 13 Tank Side Setup</p>
 
