@@ -140,7 +140,7 @@ Housing is designed both for the User Interface and the tank side setup to enclo
 <p align="center">Figure 15 Tank Circuit Case Design</p>
 
 ### 10. Conclusion and Future Works:
--The presented framework is more appropriate to monitor water tank level continuously and on a real-time basis. 
+- The presented framework is more appropriate to monitor water tank level continuously and on a real-time basis. 
 + Use solar energy for power supply to improve power backup.
 + Improve the user interface with additional features like water consumption, etc.
 - Integrate additional components to automatically turn on and off the pump.
