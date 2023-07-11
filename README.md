@@ -49,7 +49,7 @@
 - Figure 2 shows the components needed for the proposed concept
 
 <p align="center">
-<img src="images/components_used.jpg" height="80%" width="80%">
+<img src="images/components_used.jpg" height="90%" width="90%">
 </p>
 <p align="center">Figure 2 Components Used</p>
 
